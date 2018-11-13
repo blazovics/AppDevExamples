@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MyColumn.qml</file>
+        <file>MyRow.qml</file>
+        <file>MyFlow.qml</file>
+        <file>MyGrid.qml</file>
+        <file>MyAnchors.qml</file>
+        <file>MyAnchors2.qml</file>
+    </qresource>
+</RCC>

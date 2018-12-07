@@ -2,6 +2,7 @@
 #define DATAITEM_H
 
 #include <QObject>
+#include <QDataStream>
 
 class DataItem : public QObject
 {
@@ -21,6 +22,10 @@ public:
 signals:
     void xValueChanged();
     void yValueChanged();
+
+public:
+    void Serialize(QDataStream &outStream);
+    void DeSerialize(QDataStream &inStream);
 
 public slots:
 };

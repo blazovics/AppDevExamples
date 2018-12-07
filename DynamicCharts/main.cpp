@@ -30,7 +30,10 @@ int main(int argc, char *argv[])
     rootCtx->setContextProperty("sinSource",&sine);
     rootCtx->setContextProperty("burstData",&burstData);
 
-    burstData.generateData();
+    //burstData.generateData();
+
+    burstData.saveData();
+    burstData.loadData();
 
     return app.exec();
 }
